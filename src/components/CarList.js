@@ -33,7 +33,6 @@ const renderedCars = cars.map((car)=>{
 return <div className="car-list">{renderedCars}
 <hr/>
 </div>
-
-
 }
+
 export default CarList
