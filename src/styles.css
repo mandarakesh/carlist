@@ -70,3 +70,39 @@ align-items: center;
     margin-bottom: 0px;
     margin-right: 10px;
 }
+
+
+.modal-class{
+    position: fixed;
+    background-color: rgb(106, 128, 147,0.4);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-car{
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding-top: 15px;
+    padding-left: 0px;
+    gap: 0;
+}
+.label{
+    padding-top: 10px;
+}
