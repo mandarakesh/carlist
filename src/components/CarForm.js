@@ -29,13 +29,13 @@ function CarForm(){
                 <div className="field-group">
                     <div className="field">
                         <label className="label">Name</label>
-                        <input className="input is-expanded"
+                        <input required className="input is-expanded"
                         value={name} onChange={handleNameChange}
                         />
                     </div>
                     <div className="field">
                         <label className="label">Cost</label>
-                        <input className="input is-expanded"
+                        <input required className="input is-expanded"
                         value={cost || ""}
                         onChange={handleCostChange}
                         type="number"

@@ -1,5 +1,5 @@
 import {configureStore} from "@reduxjs/toolkit"
-import {carReducer,changeSearchTerm, addCar,removeCar} from "./slices/carsSlice"
+import {carReducer,changeSearchTerm, addCar,removeCar,editCar} from "./slices/carsSlice"
 import {formReducer, changeCost,changeName} from "./slices/formSlice"
 
 const store=configureStore({
@@ -9,4 +9,4 @@ const store=configureStore({
     }
 })
 
-export {store,changeCost,changeName,changeSearchTerm,addCar,removeCar}
+export {store,changeCost,changeName,changeSearchTerm,addCar,removeCar,editCar}
